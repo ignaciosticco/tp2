@@ -5,8 +5,8 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 20383	YAL025C  	          	                                                     	TGCCGCATCAAAGAGGCCAA	
 20376	YAL032C  	          	FUN20                                                	TGATCCGCGTCGATGCTCTT	
 20375	YAL033W  	          	FUN53                                                	CTGACTTAGTGCATACTGCT	
-20372	YAL034W-a	          	NSL2, DSN3                                           	GGACCTCTGCTCATTATGCT	
-20373	YAL035C-A	          	                                                     	ATTGGTCACTCTGCACTGCT	
+20372	YAL034WA	          	NSL2, DSN3                                           	GGACCTCTGCTCATTATGCT	
+20373	YAL035CA	          	                                                     	ATTGGTCACTCTGCACTGCT	
 20368	YAL038W  	          	PYK1                                                 	ATTGAGAGTCAGTGCCAGAT	
 20365	YAL041W  	          	CLS4                                                 	TATGGACTGGCATCACCGTG	
 20362	YAL043C  	          	FUN39                                                	AGTCCATGCAGCACTCTTGG	
@@ -72,7 +72,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 23338	YBR198C  	          	TAF90                                                	ACCTTCTAGTGAGCTGCGGT	ATGCTCACGGTCCGCAGTTT
 23342	YBR202W  	          	MCM7                                                 	AACTCGTTGGCATAGCTGGT	CCTCGCTCCAAATTGAGAAA
 23351	YBR211C  	          	ARP100                                               	ACTTCTGGAGTATCGGATGT	CCGCGATTCAAACGATTCAA
-27461	YBR233W-A	          	                                                     	TACCTAGACGCGAGCACTTG	GATCCATCCGCACTGGTTTG
+27461	YBR233WA	          	                                                     	TACCTAGACGCGAGCACTTG	GATCCATCCGCACTGGTTTG
 23374	YBR234C  	          	                                                     	ACTGGGTCACTGGTGCCATT	CCATAGGTCAAACTGCGTAA
 23376	YBR236C  	          	                                                     	ATTTCGTCGAGCCGCGCATT	CACTCTGTCAAAGTCGGTAA
 23377	YBR237W  	          	RNA5                                                 	ACCGCTGCGAGGCTTAGATT	CCCAGCTCGAAATGGATTAA
@@ -228,7 +228,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 23662	YDR303C  	          	                                                     	TTCACGGTACGCACGGTATG	TCACTACGGGTATAGAGCGT
 23667	YDR308C  	          	MED21                                                	TAGGACGTTAGAGACTTCTG	TTGCACGGTCTAGGATTCGT
 23670	YDR311W  	          	                                                     	TATTAGCCTACCCGCAGGTG	TTGTCTACGAGCCCTGAGGT
-27478	YDR320C-A	          	HSK2                                                 	CGACGTGTGACATTCGCTTG	GGGCCGACGTATTACTAAAT
+27478	YDR320CA	          	HSK2                                                 	CGACGTGTGACATTCGCTTG	GGGCCGACGTATTACTAAAT
 23683	YDR324C  	          	                                                     	TATACTCGTCCACGCGGTTG	TACGGATTAGTAGCTCTGGT
 23684	YDR325W  	          	YCS5, TIE1                                           	TTCTGTACGCCACCGTGTTG	TTTGCTCCGAGATCCGTGGT
 23686	YDR327W  	          	                                                     	TGGGCCAACCGCTGCTTAAT	TCCTAGTATGGACGATTGGT
@@ -300,8 +300,8 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 2168	YER036C  	          	                                                     	CACGCCCTTACATGATATGG	CACGAGCGCCAATGAGTATA
 2170	YER038C  	          	                                                     	CATTCTCATCCAGCGTATGG	TGCATTAACACATACGGCAC
 2176	YER043C  	          	                                                     	ATCCTGAGCGGACGTTGCAT	AAGAGAGATCACGCGCTTCC
-25839	YER048W-A	          	                                                     	GGCCCTATACCATAATGATC	TACGTCATCACATGGATCTC
-27486	YER074W-A	          	                                                     	TACGGAGCGAGCATCTCTTG	GCAGCCCGAGTTAGTTAAAT
+25839	YER048WA	          	                                                     	GGCCCTATACCATAATGATC	TACGTCATCACATGGATCTC
+27486	YER074WA	          	                                                     	TACGGAGCGAGCATCTCTTG	GCAGCCCGAGTTAGTTAAAT
 2222	YER082C  	          	KRE31                                                	CGCATATACTACGATAGACG	CAGAAGCGCCAATTTGAGCA
 26398	YER093C  	          	AVO3                                                 	TCACGGCGCTCATGGATCAT	GGATCACCAGAATCATGCAC
 26400	YER094C  	          	SCS32                                                	GATTTCAGTCCATCTGCGCT	AGAATCTGCGGCAACTGCAC
@@ -326,12 +326,12 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 25624	YFL008W  	          	CHL10                                                	ACAGTTATCCTAAGTCGCAG	ACACACCGATCAGATGCGAG
 25625	YFL009W  	          	                                                     	AGAGTACCTACCATTCGCAG	GTAGCACTCCTAACTGCGAG
 25635	YFL017C  	          	PAT1                                                 	ATAGCACGCCCATTTGGCAG	GACTTATACCCAGCCAGGAG
-25637	YFL018W-A	          	                                                     	TATAGACGCCGACCATGCAG	TCATATACGCCACGGAGGAG
+25637	YFL018WA	          	                                                     	TATAGACGCCGACCATGCAG	TCATATACGCCACGGAGGAG
 25641	YFL022C  	          	                                                     	CGCAGAGTAGTTAATTGCAG	TGAGCTTAACGCATTAGGAG
 25643	YFL024C  	          	                                                     	AAGTCTCAGTAAGGTTGCAG	AATTACCACGGACCACGGAG
 27361	YFL029C  	          	CIV1                                                 	GCATACGAGTTAAGCATCAG	TATTCCACGCCATACGGGAG
 25654	YFL035C  	YFL035C_t 	                                                     	CCCGTAGTGATAATACTCAG	CCTCTATGATGGTGAATGAG
-25655	YFL035C-A	          	                                                     	CTTGAAGCAGGCGTACTCAG	CCGACGATGATACTAATGAG
+25655	YFL035CA	          	                                                     	CTTGAAGCAGGCGTACTCAG	CCGACGATGATACTAATGAG
 25658	YFL037W  	          	SHE8, ARM10                                          	GTACACAGATACGCGCTCAG	AGGTACAGATACTGCATGAG
 25659	YFL038C  	          	YP2                                                  	GCACTCTTACTAATGCTCAG	TCAGAATAACGCTCGATGAG
 27075	YFL039C  	          	ABY1, END7                                           	TAGGTACAGACCGATCTCAG	TCACAGCCCTACAGGATGAG
@@ -360,7 +360,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 27763	YGL044C  	YGL044C_2 	                                                     	ACTCAGCGAGGGTAGATACT	ACTCTAGGCGGGACGATACT
 24415	YGL047W  	          	                                                     	CCCGTAGACGTAATGATTTC	CCCTTAGGTCGATGGTGATT
 24416	YGL048C  	          	SUG1, SCB68, CRL3, CIM3                              	CCGTACCTGGAATATCTTTC	CCCGGTGAGTTCAGTGTATT
-24422	YGL055W  	          	MDM2                                                 	CAACGAGGGCTAACTTATAG	CCTCTAGGTGTACGGAGCTT
+24422	YGL055W 	          	MDM2                                                 	CAACGAGGGCTAACTTATAG	CCTCTAGGTGTACGGAGCTT
 24428	YGL061C  	          	                                                     	CATTCGGGCTAAGTTTGTAG	CCGCTATGGGTTATCAGGTT
 24432	YGL065C  	          	                                                     	CCGGCTCTGTAACTATTTAG	CATCTTGGGCGACCTTGGTT
 24435	YGL068W  	          	                                                     	CCGTACTATTAACTGAGACG	CAGGTAGTAGTACGTCTGTT
@@ -465,7 +465,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 25930	YGR278W  	          	                                                     	AAGTACAGGTAATGCCTACG	GCACAAATATAACGTCGCCG
 25932	YGR280C  	          	GNO1                                                 	ACGACTCTAGCATGTCTACG	ATCCACTCGTTAATTGGCCG
 2948	YHL015W  	          	URP2                                                 	CACTGCTTGCGATGTGCGTT	GGCTATGACATCAGCTTATC
-25946	YHR005C-A	          	TIM10                                                	CAGCGATACGCATGTGTACG	CGACTTACTACAGTGATCCG
+25946	YHR005CA	          	TIM10                                                	CAGCGATACGCATGTGTACG	CGACTTACTACAGTGATCCG
 26604	YHR007C  	          	CYP51                                                	ACATGACGAGAACTCTGCAC	TGACCGGCAGGCTAGTCTAT
 2982	YHR019C  	          	                                                     	CGGCCTATCAGAGAATTATC	ATGAGTGCTGTAGACGCTTT
 2983	YHR020W  	          	                                                     	CATGCAGGTGAAGGATTATC	GGGCGCACAACAATCTGCAA
@@ -481,7 +481,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 21897	YHR069C  	          	                                                     	TGCAGAGAATAACTGTGACC	TCAGAGAAGACACCGCGTGA
 21898	YHR070W  	          	                                                     	CATACAGACGCATATTGACC	ACATCTTGTAAAGCGCGTGA
 21900	YHR072W  	          	                                                     	GCACAGAGCACAGTAGTACC	AGCTGCAATACCACGTTGTA
-27512	YHR072W-A	          	                                                     	GCACGGACTAGATTATGTTG	GAGATCGACCCTCAGTCAAT
+27512	YHR072WA	          	                                                     	GCACGGACTAGATTATGTTG	GAGATCGACCCTCAGTCAAT
 21902	YHR074W  	          	                                                     	TAATGCACTATAAGCACCGC	TGCTCAACACCTGGCAATTA
 21911	YHR083W  	          	TOM38, TOB38, FMP20                                  	CATAGCAGATGCACGTTGAG	ATTGATGCACCAGATGCCGC
 21913	YHR085W  	          	                                                     	GCGATCATTAGATATGCAGG	ACTGCATGTGAAGCCATTGC
@@ -494,7 +494,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 21946	YHR118C  	          	                                                     	CAGCGACTGCAACTATTGTA	CAGAACTGCTCACAATGTCA
 21950	YHR122W  	          	                                                     	AGATCATGTCAACTAAGCCC	CATAACTGCCAAGGAGGTGA
 27660	YHR128W  	          	                                                     	CATTACGGGTGACCAGTGAT	CTCGCACGTCTCAGAGTGAT
-22837	YHR143W-A	          	RPB12                                                	TACTTATCGAGATCGGGATG	TTGCAGGGTACGATAGTCAT
+22837	YHR143WA	          	RPB12                                                	TACTTATCGAGATCGGGATG	TTGCAGGGTACGATAGTCAT
 22842	YHR148W  	          	                                                     	TACGAGGCTAGACTACTATG	TATGTGACCCGCGTCCAGAT
 22858	YHR164C  	          	WEB2                                                 	TGAGTTCCGCCACTTAGCTG	TACGAGGGCGGATCATCTAT
 27791	YHR165C  	          	USA2, SLT21, RNA8, DNA39, DBF3                      	GGGTTTCGACCTATGCACCT	AAAGTGGAGTTCCCTCACCT
@@ -509,7 +509,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 22890	YHR196W  	          	                                                     	TATGGCTCGACACCTCGTTG	TAGACTCTGGCATTGGTCCT
 22891	YHR197W  	YHR197W_1 	IPI2                                                 	TATAGCCGCGTCCACTGTTG	TCTGGCACTGGCGTTAAGCT
 27795	YHR197W  	YHR197W_2 	IPI2                                                 	TTGAGGACGCTTCACGACCT	TTTGAGCGGCTAGACGACCT
-27661	YHR199C-A	          	                                                     	ACCCTTAGTCGCATTTGCAT	CGCTAGATCCTCATTACGAT
+27661	YHR199CA	          	                                                     	ACCCTTAGTCGCATTTGCAT	CGCTAGATCCTCATTACGAT
 21395	YIL003W  	          	DRE3                                                 	CATTGGCAGCGATGTTGTCT	TGATGCAGGTCGCACTTGAT
 21396	YIL004C  	          	SLY12                                                	CCCGCACAGAAATGCTTGAA	ACAGATGGCGCATACTTGAT
 21412	YIL019W  	          	                                                     	GCGCGATGAATACACATGAC	CCTGCCAGTCAAGAGAATGA
@@ -626,7 +626,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 26926	YJR123W  	          	                                                     	GCTCCGATAGGATATTAGTG	GGAGGCTCGTCACTATCTCT
 26935	YJR141W  	          	                                                     	GCTGCGTCCATTTGAACAAT	GCCTACTGTCTCACATTGGT
 24852	YKL004W  	          	                                                     	CCCTAAACAACAGGTTCGTA	GACGATCAATGTCTTCCAAC
-24854	YKL006C-A	          	                                                     	CCTCGGACAGAATATAGGTA	GGACATGAATTTGGAGCAAC
+24854	YKL006CA	          	                                                     	CCTCGGACAGAATATAGGTA	GGACATGAATTTGGAGCAAC
 24861	YKL012W  	          	                                                     	GCGACCGAAGTAACCATGTA	GACTATCAACGAGTGGCAAC
 24862	YKL013C  	          	                                                     	GCCAGAGTAAGGCAACTGTA	GCCTGGCAATGTCATGCAAC
 24863	YKL014C  	          	NPA1                                                 	TGTACTCAACCAGACCTGTA	GACGGAACAGGATCTGCAAC
@@ -660,7 +660,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 24962	YKL112W  	          	SBF1, REB2, OBF1, BAF1                               	TCCAATGTAGCTCAAGGGAC	ACGCACCATGTTGTTAAACC
 24972	YKL122C  	          	                                                     	CCCGAATGCTTATCAATGAC	GGAGGAACTACACTCGAACC
 24975	YKL125W  	          	                                                     	CTAACATGAGTGCAAGTGAC	CGCTTTAAGGCCAAATAACC
-27535	YKL138C-A	          	                                                     	ACACCTTGCGCCATTATTTG	GGACCGAGATGTTTACGAAT
+27535	YKL138CA	          	                                                     	ACACCTTGCGCCATTATTTG	GGACCGAGATGTTTACGAAT
 24991	YKL141W  	          	YKL4, CYB3                                           	GCGGTACATACAGTCAATAC	GCCTTATTAGAAGTTCCACC
 24994	YKL144C  	          	YKL1                                                 	GTGGGCATAAGTGAACATAC	GCAGATTCAGGAACATCACC
 24995	YKL145W  	          	YTA3, CIM5                                           	GGTGGCATAATCAGACATAC	CCATATAGCGAAGTATCACC
@@ -727,7 +727,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 22689	YLR078C  	          	SEC32                                                	TGATAGGGCACAACCGACCA	TCTGAAGCAGGAGGAATACC
 22697	YLR086W  	          	                                                     	TCCTGCCGGAGAAGAAAGCA	TACCTAACACGATATGAGCC
 22699	YLR088W  	          	END2                                                 	TTGCCGGGAGACAAACAGCA	TATGGATCTACCGAAGCGCC
-27569	YLR099W-A	          	                                                     	ATACGCGGAGACTGGATAAT	GCGAGATGTAGGCATACCAT
+27569	YLR099WA	          	                                                     	ATACGCGGAGACTGGATAAT	GCGAGATGTAGGCATACCAT
 22711	YLR100W  	          	                                                     	TTAGCGAACCAAGCCGCAGA	TCATTGGGAACATGCCGTCC
 22712	YLR101C  	          	                                                     	TGTTACACCACAACGCGAGA	TAGGATCGCCGAATCTGTCC
 22714	YLR103C  	          	SLD4                                                 	TCCCATACGACAAGTTGAGA	TATAGAGACGCACCCGAAGC
@@ -793,7 +793,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 25318	YLR409C  	          	                                                     	GGCTTAATACCATATCCTGC	GAAGCAGAGTTCAGCACATC
 26027	YLR424W  	          	NTR1, CCF8                                           	CCACTGACGTTAATGAGGCG	TCGCAGATGAGAGATACTCG
 26033	YLR430W  	          	NRD2, CIK3                                           	ATATTTCCCAGAGTGCGGCG	ACGTTAGTCACAGGTCCTCG
-26041	YLR438C-A	          	USS2, SMX4                                           	ACTCAAACATAACTCTGGCG	GCATGATTGACATCCTCTCG
+26041	YLR438CA	          	USS2, SMX4                                           	ACTCAAACATAACTCTGGCG	GCATGATTGACATCCTCTCG
 26044	YLR440C  	          	                                                     	ACGATAGAGATCCATTGGCG	ATGGTCCTGACATCGTCTCG
 27112	YLR457C  	          	                                                     	ATATCAGAGTACGCGCTGCG	TGTTAAGCCGCATTGAGTCG
 26061	YLR458W  	          	                                                     	TACACGATTGTTGAAGTGCG	CCACGTATTACAGATAGTCG
@@ -874,7 +874,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 2867	YMR281W  	          	                                                     	CCTTGATGAGAAGATGAGAC	CCATGCAGACTAAGAGCAGC
 2874	YMR288W  	          	                                                     	ACTCATAGTGAAGGAGATGC	TATAGTCCACTCACATGCAG
 2877	YMR290C  	          	                                                     	TAGCAGCCAGCATTAGGCAG	ATACGATGCTCACGTTGGCG
-2876	YMR290W-A	          	                                                     	TACGAGTCTACAGCAGGCAG	CAGAGCCGGACATTATGCAG
+2876	YMR290WA	          	                                                     	TACGAGTCTACAGCAGGCAG	CAGAGCCGGACATTATGCAG
 2884	YMR296C  	          	TSC2, END8                                           	ATACTCCACGGATCTGCATG	CAGTGTAGAGCAGCCTCATG
 2886	YMR298W  	          	                                                     	CACTGGTTGTAATGTGCATG	TACTATGGCGCACTGCTGTG
 2889	YMR301C  	          	                                                     	CATCGGATCGCAGTTATGTG	AAGCAGTGATACCGATGGAT
@@ -884,7 +884,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 25330	YNL002C  	          	RPL7                                                 	CGGTTAAGAGCCATTGATAG	GTATGACATCTTCTCCAACG
 25334	YNL006W  	          	                                                     	GCACCTGGTTGAACGTATAG	TCACATGGAGTTGAAGAACG
 25335	YNL007C  	          	                                                     	ATGTAGCCCACACCTTATAG	ATTAACGAGCCTTCAGAACG
-27595	YNL024C-A	          	                                                     	ACTTCCCGAGGCGGAGTAAT	GAGTTGACCCGACGATCCAT
+27595	YNL024CA	          	                                                     	ACTTCCCGAGGCGGAGTAAT	GAGTTGACCCGACGATCCAT
 25352	YNL026W  	          	TOB55, OMP85                                         	CCCATAGCATGAGATCCTAG	ACATTTAAGCGGAGGTAACG
 27703	YNL036W  	          	NCE3                                                 	ACCTCTACGTGGGCGAAGAT	CTTTATATCGGAGGACGGAT
 25363	YNL038W  	          	                                                     	GGTGACCATCGCACATCTAG	ATTTGGAGCCCATGCACACG
@@ -907,7 +907,7 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 22945	YNL131W  	          	MOM22, MAS22, MAS17                                  	TACCTGTTGGCATCGGCTGT	ATTTACGCAACAGCGGCTTA
 22944	YNL132W  	          	                                                     	TATTGACTCGGAGCCGCTGT	ACGAGGAGGCAACTCTATTA
 27248	YNL137C  	          	MNA6                                                 	TATTGACGCGGCCTCGATGT	AGAATTACGCGCAAGTGGTA
-27600	YNL138W-A	          	RCP10                                                	CTTGTCGCCAGGTGCGTAAT	TTGGGATGAGCCCTCTCCAT
+27600	YNL138WA	          	RCP10                                                	CTTGTCGCCAGGTGCGTAAT	TTGGGATGAGCCCTCTCCAT
 22063	YNL149C  	          	                                                     	CAGTGAGAGTTATAGAGCCT	GCAGCCATGATATACACTTC
 22062	YNL150W  	          	                                                     	AAGGTCATCTCATGTGCCCT	GCGCTATGCACATTCTATTC
 22061	YNL151C  	          	RPC8, ACP2                                           	AATATGACTTGCCATGCCCT	CATCTCGCTGAATATAGCTC
@@ -1156,7 +1156,3 @@ rec_num	ORF_name	deletion_alias	gene_names                                      
 25601	YPR186C  	          	TFC2                                                 	TTACAGCCCAGGGACCTAAG	AAGTATCATGCACCATCCAG
 25602	YPR187W  	          	RPB6                                                 	ATAGTTACCACCGGCCTAAG	TTGTGCAGGACACGATCCAG
 25605	YPR190C  	          	RPC3                                                 	CACGAGGCATAGACGCTAAG	ATAGTTTGCCACACTTCCAG
-		          	                                                     		
-
-updated 0507
-
