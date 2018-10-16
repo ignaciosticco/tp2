@@ -1,0 +1,3 @@
+Texto recortado en la intro:
+
+se tuvo como hipótesis que la esencialidad es una función de una estructura de red global.

@@ -8,6 +8,7 @@ from io import StringIO
 import random
 import scipy
 from scipy import stats
+import statsmodels.api as sm
 
 
 golden_mean = (math.sqrt(5)-1.0)/2.0       # Aesthetic ratio
@@ -176,7 +177,7 @@ pylab.ylabel('Pe')
 #pylab.xlim(0, 1)
 plt.legend()
 pylab.savefig('fig2_he_a.eps', format='eps', dpi=300, bbox_inches='tight')
-'''
+
 
 ##### Resultados Fit #########
 
@@ -191,3 +192,22 @@ print "LIT Reguly",round(slope,3), round(intercept,3), round(r_value*r_value,3)
 
 slope, intercept, r_value, p_value, std_err = stats.linregress(resultado_he_Y2H[0][1:10],resultado_he_Y2H[2][1:10])
 print "Y2H",round(slope,3), round(intercept,3), round(r_value*r_value,3)
+
+'''
+##### Resultados segundo Fit #########
+
+## Sacado de https://stackoverflow.com/questions/26050855/getting-uncertainty-values-in-linear-regression-with-python
+
+
+x = resultado_he_Y2H[0][1:10]
+y = resultado_he_Y2H[2][1:10]
+
+
+x = sm.add_constant(x)
+
+model = sm.OLS(y,x)
+results = model.fit()
+
+
+print(results.params)
+print(results.bse )
